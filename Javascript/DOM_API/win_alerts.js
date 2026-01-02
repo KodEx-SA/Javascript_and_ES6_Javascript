@@ -1,0 +1,5 @@
+var deleteConfirm = window.confirm("Are you sure you want to delete this?");
+
+if (deleteConfirm) {
+    deleteItem(itemId);
+}
