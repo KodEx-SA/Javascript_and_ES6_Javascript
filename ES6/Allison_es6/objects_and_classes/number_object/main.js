@@ -29,6 +29,9 @@ console.log(`String of: ${i.toString()}`); // Output: "67.463098" => converts nu
 console.log(`Max number value in JS: ${Number.MAX_VALUE}`); // Output: 1.7976931348623157e+308
 console.log(`Min number value in JS: ${Number.MIN_VALUE}`); // Output: 5e-324
 
+// max method returns the largest of zero or more numbers
+console.log(`Max of 10, 20, 5, 40 is ${Math.max(10, 20, 5, 40)}`); // Output: 40
+
 
 // Demonstrating that numObj is an object
 console.log(numObj instanceof Number); // Output: true
