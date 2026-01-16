@@ -17,8 +17,15 @@ console.log(typeof numObj);
 
 var i = new Number(67.463098);
 console.log(i); // Output: [Number: 67.463098]
+
 console.log(`Precision of: ${i.toPrecision(4)}`); // Output: "67.46" => formats number to specified precision -> 4 significant digits
 // toPrecision() method formats a number to a specified length
+
+console.log(`Fixed of: ${i.toFixed(2)}`); // Output: "67.46" => formats number to 2 decimal places
+
+// toFixed() method formats a number using fixed-point notation
+console.log(`String of: ${i.toString()}`); // Output: "67.463098" => converts number to string
+
 
 // Demonstrating that numObj is an object
 console.log(numObj instanceof Number); // Output: true
