@@ -17,6 +17,7 @@ console.log(typeof numObj);
 
 var i = new Number(67.463098);
 console.log(i); // Output: [Number: 67.463098]
+console.log(`Precision of: ${i.toPrecision(4)}`); // Output: "67.46" => formats number to specified precision -> 4 significant digits
 
 // Demonstrating that numObj is an object
 console.log(numObj instanceof Number); // Output: true
