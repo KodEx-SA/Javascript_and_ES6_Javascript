@@ -22,9 +22,12 @@ console.log(`Precision of: ${i.toPrecision(4)}`); // Output: "67.46" => formats 
 // toPrecision() method formats a number to a specified length
 
 console.log(`Fixed of: ${i.toFixed(2)}`); // Output: "67.46" => formats number to 2 decimal places
-
 // toFixed() method formats a number using fixed-point notation
+
 console.log(`String of: ${i.toString()}`); // Output: "67.463098" => converts number to string
+
+console.log(`Max number value in JS: ${Number.MAX_VALUE}`); // Output: 1.7976931348623157e+308
+console.log(`Min number value in JS: ${Number.MIN_VALUE}`); // Output: 5e-324
 
 
 // Demonstrating that numObj is an object
