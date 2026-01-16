@@ -1,5 +1,11 @@
 "use strict";
 
+var re = /(\w+)\s(\w+)/; // Regular expression to match first and last names
+
+var str = "John Smith";
+var newstr = str.replace(re, "$2, $1"); // Replaces "John Smith" with "Smith, John"
+console.log(newstr); // "Smith, John"
+
 // Create a regular expression that matches any string containing "cat" or "dog"
 const regex = /cat|dog/;
 
