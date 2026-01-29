@@ -17,6 +17,13 @@ console.log("Even Numbers:", evenNumbers); // Output: [2, 4]
 const oddNumbers = numbers.filter(num => num % 2 !== 0);
 console.log("Odd Numbers:", oddNumbers); // Output: [1, 3, 5]
 
+for (let i = 0; i < numbers.length; i++) { // Traditional for loop to iterate through the array
+    console.log("Number at index", i, "is", numbers[i]);
+}
+
+var newNumbers = new Array(100);; // Create a new array with 100 undefined elements
+console.log("New Numbers Array Length:", newNumbers.length); // Output: 100
+
 // Use reduce to calculate the sum of all numbers in the array
 // reduce is a higher-order function that takes a callback function and an initial value, and reduces the array to a single value by
 // applying the callback function cumulatively to each element.
