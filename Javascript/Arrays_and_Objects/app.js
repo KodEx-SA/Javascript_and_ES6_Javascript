@@ -1,3 +1,4 @@
+// "use strict"
 
 var my_array = []; // empty array
 
@@ -25,6 +26,8 @@ billy = {
         return this.first_name + " " + this.last_name;
     }
 }
+console.log(billy);
+console.log(`${full_name}`);
 
 var person = {
     name: "John",

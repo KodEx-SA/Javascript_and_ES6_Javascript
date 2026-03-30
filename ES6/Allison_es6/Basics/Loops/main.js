@@ -21,7 +21,7 @@ var _temp = function() {
   // The variable blockScopedVar is only accessible within this block
   for (let j = 0; j < 3; j++) {
     let blockScopedVar = `Block scoped variable at iteration ${j}`;
-    console.log(blockScopedVar);
+    console.log(`${blockScopedVar}`);
   }
 }
 _temp();

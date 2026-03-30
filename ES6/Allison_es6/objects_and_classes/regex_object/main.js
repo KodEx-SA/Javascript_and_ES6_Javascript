@@ -3,7 +3,7 @@
 var re = /(\w+)\s(\w+)/; // Regular expression to match first and last names
 
 var str = "John Smith";
-// Replaces "John Smith" with "Smith, John". $1 -> "John", $2 -> "Smith"(they represent the captured groups from the regex)
+// Replaces "John Smith" with "Smith, John". $1 -> "John", $2 -> "Smith"(they represent the captured groups from the regex -> They're placeholders)
 var newstr = str.replace(re, "$2, $1");
 console.log(newstr); // "Smith, John"
 
